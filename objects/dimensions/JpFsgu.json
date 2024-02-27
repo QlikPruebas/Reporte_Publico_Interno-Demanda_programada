@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "JpFsgu",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Hora"
+    ],
+    "qFieldLabels": [
+      "Hora"
+    ],
+    "qLabelExpression": "='Hora'",
+    "title": "Hora",
+    "coloring": {
+      "changeHash": "0.7947786115214273"
+    }
+  },
+  "qMetaDef": {
+    "title": "Hora",
+    "description": "",
+    "tags": []
+  }
+}

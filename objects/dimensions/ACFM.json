@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "ACFM",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "fecha_efectiva"
+    ],
+    "qFieldLabels": [
+      "Fecha Efectiva"
+    ],
+    "qLabelExpression": "='Fecha Efectiva'",
+    "title": "Fecha Efectiva",
+    "coloring": {
+      "changeHash": "0.8820274578083749"
+    }
+  },
+  "qMetaDef": {
+    "title": "Fecha Efectiva",
+    "description": "",
+    "tags": []
+  }
+}

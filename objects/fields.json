@@ -1,0 +1,365 @@
+[
+  {
+    "qName": "%KEY_BLOQUE_FUENTE_VERSION",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA",
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "%KEY_DICCIONARIO_BARRAS",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA",
+      "DIM_BARRAS"
+    ]
+  },
+  {
+    "qName": "Año",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "AñoMesNum",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Dia",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Fecha",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Fecha_Efectiva",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Fecha_Hora",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "HidroFiltro",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "Hora",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Mes",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "MesAño",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Semana",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "bloque",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "comuna",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_BARRAS"
+    ]
+  },
+  {
+    "qName": "dem_pot",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "etapa",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "fecha_hora",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "fecha_hora_version",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "fecha_version",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "fecha_version_indhor",
+    "qTags": [
+      "$numeric",
+      "$timestamp",
+      "$integer",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "fuente",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "fuente_indhor",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "hidro",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "id_subestacion",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "DIM_BARRAS"
+    ]
+  },
+  {
+    "qName": "intervalo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "nombre_barra",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "numero_version",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "numero_version_indhor",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "pais",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_BARRAS"
+    ]
+  },
+  {
+    "qName": "provincia",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_BARRAS"
+    ]
+  },
+  {
+    "qName": "region",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_BARRAS"
+    ]
+  },
+  {
+    "qName": "subestacion",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_BARRAS"
+    ]
+  },
+  {
+    "qName": "unidad",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DEMANDA_PROGRAMADA"
+    ]
+  },
+  {
+    "qName": "zona",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "DIM_BARRAS"
+    ]
+  }
+]

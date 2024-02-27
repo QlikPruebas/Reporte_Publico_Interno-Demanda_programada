@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "bd76027c-bfb7-4065-8530-a58f26c9a01d",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Demanda PCP",
+    "qDef": "SUM(\r\n\t$(=\n    \tIF(GetSelectedCount(Fecha)=0 AND GetSelectedCount(Fecha_Hora)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(Año)=0 AND GetSelectedCount(Fecha_Efectiva)=0 AND GetSelectedCount(fecha_version_indhor)=0 AND GetSelectedCount(fecha_version)=0,\n    \tvFiltrosPCP,\n        vSinFiltrosPCP\n    \t)\n    )\ndem_pot)\n/ \n\n$(vEscalaValor)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Demanda ['&vEscalaGeneracion&']'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Demanda PCP",
+    "description": "",
+    "tags": []
+  }
+}

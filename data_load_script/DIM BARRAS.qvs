@@ -1,0 +1,12 @@
+///$tab DIM BARRAS
+DIM_BARRAS:
+LOAD
+    %KEY_DICCIONARIO_BARRAS,
+    id_subestacion,
+    subestacion,
+    zona,
+    region,
+    comuna,
+    provincia,
+    pais
+FROM [lib://STG/PLATAFORMA PROGRAMACION/STG_PRG_DIM_BARRAS.qvd] (qvd);

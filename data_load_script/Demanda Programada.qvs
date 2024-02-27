@@ -1,0 +1,19 @@
+///$tab Demanda Programada
+DEMANDA_PROGRAMADA:
+LOAD
+    %KEY_BLOQUE_FUENTE_VERSION,
+    %KEY_DICCIONARIO_BARRAS,
+    nombre_barra,
+    dem_pot,
+    unidad,
+    fecha_hora,
+    intervalo,
+    fuente,
+    fecha_version,
+    fecha_hora_version,
+    numero_version,
+    bloque,
+    etapa,
+    hidro,
+    hidro	AS HidroFiltro
+FROM [lib://STG/PLATAFORMA PROGRAMACION/STG_PRG_DEMANDA_PROGRAMADA.qvd] (qvd);

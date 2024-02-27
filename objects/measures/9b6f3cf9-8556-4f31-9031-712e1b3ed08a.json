@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "9b6f3cf9-8556-4f31-9031-712e1b3ed08a",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Demanda PLP",
+    "qDef": "SUM(\r\n\t$(=\n    \tIF(GetSelectedCount(Fecha)=0 AND GetSelectedCount(Fecha_Hora)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(Año)=0 AND GetSelectedCount(Fecha_Efectiva)=0 AND GetSelectedCount(fecha_version_indhor)=0 AND GetSelectedCount(fecha_version)=0,\n    \tvFiltrosPLP,\n        vSinFiltrosPLP\n    \t)\n    )\ndem_pot)\n/ \n\n$(vEscalaValor)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Demanda ['&vEscalaGeneracion&']'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "Demanda PLP",
+    "description": "",
+    "tags": []
+  }
+}
